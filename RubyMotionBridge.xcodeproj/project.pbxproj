@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		84A8347A1584CD2300CA89E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A834791584CD2300CA89E9 /* Foundation.framework */; };
 		84A834801584CD2300CA89E9 /* RubyMotionBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8347F1584CD2300CA89E9 /* RubyMotionBridge.m */; };
+		84A834861584D02100CA89E9 /* RubyMotionBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A8347E1584CD2300CA89E9 /* RubyMotionBridge.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A834761584CD2300CA89E9 /* libRubyMotionBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRubyMotionBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A834791584CD2300CA89E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		84A8347D1584CD2300CA89E9 /* RubyMotionBridge-Prefix.pch */ = {isa = PBXFileReference; path = "RubyMotionBridge-Prefix.pch"; sourceTree = "<group>"; };
-		84A8347E1584CD2300CA89E9 /* RubyMotionBridge.h */ = {isa = PBXFileReference; path = RubyMotionBridge.h; sourceTree = "<group>"; };
+		84A8347D1584CD2300CA89E9 /* RubyMotionBridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyMotionBridge-Prefix.pch"; sourceTree = "<group>"; };
+		84A8347E1584CD2300CA89E9 /* RubyMotionBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyMotionBridge.h; sourceTree = "<group>"; };
 		84A8347F1584CD2300CA89E9 /* RubyMotionBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyMotionBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +82,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A834861584D02100CA89E9 /* RubyMotionBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

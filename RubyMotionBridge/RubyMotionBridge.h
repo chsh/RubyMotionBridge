@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface RubyMotionBridge : NSObject
++ (NSArray *)fromNSFastEnumerationToNSArray: (NSObject<NSFastEnumeration> *)objects;
 
 @end

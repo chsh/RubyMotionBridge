@@ -9,5 +9,13 @@
 #import "RubyMotionBridge.h"
 
 @implementation RubyMotionBridge
++ (NSArray *)fromNSFastEnumerationToNSArray:(NSObject <NSFastEnumeration> *)objects {
+  NSObject *object;
+  NSMutableArray *array = [[NSMutableArray alloc] init];
+  for (object in objects) {
+    [array addObject:object];
+  }
+  return array;
+}
 
 @end
